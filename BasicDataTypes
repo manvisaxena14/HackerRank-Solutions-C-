@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cstdio>
+#include<iomanip>
+using namespace std;
+
+int main() {
+    // Complete the code.
+    int n;
+    long n1;
+    char n2;
+    float n3;
+    double n4;
+    cin>>n>>n1>>n2>>n3>>n4;
+    cout<<n;
+    cout<<endl<<n1;
+    cout<<endl<<n2;
+    cout<<endl<<fixed<<setprecision(3)<<n3;
+    cout<<endl<<fixed<<setprecision(9)<<n4;
+}
